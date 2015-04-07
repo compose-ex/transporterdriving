@@ -1,7 +1,7 @@
 nodes:
   infile:
     type: mongo
-    uri: mongodb://exuser:expass@lamppost.8.mongolayer.com:10047,lamppost.1.mongolayer.com:10128/demonstratum
+    uri: mongodb://user:pass@host.1.mongolayer.com:10099,host.2.mongolayer.com:10100/database
   outfile:
     type: file
     uri: file:///tmp/foo3
