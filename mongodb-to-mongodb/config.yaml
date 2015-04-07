@@ -1,0 +1,8 @@
+nodes:
+  infile:
+    type: file
+    uri: file:///tmp/foo
+    hint: array
+  outfile:
+    type: mongo
+    uri: mongodb://exuser:expass@lamppost.8.mongolayer.com:10047,lamppost.1.mongolayer.com:10128/demonstratum
